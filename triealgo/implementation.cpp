@@ -30,7 +30,7 @@ class Trie{
             return;
         }
 
-        int index = word[0]-'A' ; // considering all letterss in caps lock.
+        int index = word[0]-'A' ; // considering all letterss in caps lock..
         trieNode * child;
         // presernt .
         if(root->children[index] != NULL){
